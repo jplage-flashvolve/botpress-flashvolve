@@ -1,3 +1,54 @@
+## [12.30.3](https://github.com/botpress/botpress/compare/v12.30.2...v12.30.3) (2022-10-20)
+
+
+### Bug Fixes
+
+* **channel-web:** use avatar from last message ([#12178](https://github.com/botpress/botpress/issues/12178)) ([a71a6fb](https://github.com/botpress/botpress/commit/a71a6fb296389f2b63d365fdeb896f97b67260c4)), closes [#12049](https://github.com/botpress/botpress/issues/12049)
+* **core:** resolve 'undefined' workspace ([#12138](https://github.com/botpress/botpress/issues/12138)) ([f0b31d1](https://github.com/botpress/botpress/commit/f0b31d15ad6ba2bf118a8c40bc7a04f49f3d2dc5))
+* **google-speech:** allow multiline SSML content ([#12139](https://github.com/botpress/botpress/issues/12139)) ([c99521f](https://github.com/botpress/botpress/commit/c99521fe88fea3bee2d3e71c9adf113ec2df8310))
+* **hitlnext:** issue with history and re-queue ([#12150](https://github.com/botpress/botpress/issues/12150)) ([80b0179](https://github.com/botpress/botpress/commit/80b0179d967094df98f5ac55295ba458b18321cc))
+
+
+
+## [12.30.2](https://github.com/botpress/botpress/compare/v12.30.1...v12.30.2) (2022-09-14)
+
+
+### Bug Fixes
+
+* **admin:** fix bot workspace scoping ([#12123](https://github.com/botpress/botpress/issues/12123)) ([63bfa0d](https://github.com/botpress/botpress/commit/63bfa0d261e0b9642988f371ac04f6215819e85e))
+* **core:** prevent infinite recursive call ([#12133](https://github.com/botpress/botpress/issues/12133)) ([306e7ff](https://github.com/botpress/botpress/commit/306e7ffa473d07def4c6ef1097ac5ebe17b3f65f))
+* upgrade nlu to 1.0.2 ([#12127](https://github.com/botpress/botpress/issues/12127)) ([d13adc4](https://github.com/botpress/botpress/commit/d13adc43904d53b8ca3aba24c75ee5299d4e9163))
+
+
+
+## [12.30.1](https://github.com/botpress/botpress/compare/v12.30.0...v12.30.1) (2022-09-01)
+
+
+### Bug Fixes
+
+* **channel-web:** focus composer when single choice btn is clicked ([#12111](https://github.com/botpress/botpress/issues/12111)) ([f07a7e9](https://github.com/botpress/botpress/commit/f07a7e9b5e82a65a7aa31a3dcfe007f5000581c3))
+* skills rendering ([#12113](https://github.com/botpress/botpress/issues/12113)) ([b2c4d4f](https://github.com/botpress/botpress/commit/b2c4d4fe3e562cb3733e34492fe7fc854b5dd300))
+
+
+
+# [12.30.0](https://github.com/botpress/botpress/compare/v12.29.1...v12.30.0) (2022-08-26)
+
+
+### Bug Fixes
+
+* **channel-web:** dropdown should disable composer ([#12102](https://github.com/botpress/botpress/issues/12102)) ([4c9924b](https://github.com/botpress/botpress/commit/4c9924be0b3e16e7fe03d7fca772be964d6146e0))
+* **dockerfile:** revert workaround and use proper solution ([#12103](https://github.com/botpress/botpress/issues/12103)) ([3d2bf51](https://github.com/botpress/botpress/commit/3d2bf5177e8fe9b727957c66968c0ce15f7874a3))
+* **docker:** fix passing env vars to running shell ([#12051](https://github.com/botpress/botpress/issues/12051)) ([9e8f3a1](https://github.com/botpress/botpress/commit/9e8f3a1b5c3236e6831899b5e298a3e735f80eb4))
+* **google-speech:** error when detecting SSML ([#12070](https://github.com/botpress/botpress/issues/12070)) ([c08a86e](https://github.com/botpress/botpress/commit/c08a86e2f04d8c0cfd910f34dc9c6bd4a0f028ec))
+* **security:** only Super Admins can reboot the server ([#12100](https://github.com/botpress/botpress/issues/12100)) ([39e2e0f](https://github.com/botpress/botpress/commit/39e2e0f03007fba27b3f8f287c7fc33332afe594))
+
+
+### Features
+
+* **hitlnext:** Adds spanish language support ([#12056](https://github.com/botpress/botpress/issues/12056)) ([a2dc4ec](https://github.com/botpress/botpress/commit/a2dc4ec3524c580a08a247db30078320c799a04d))
+
+
+
 ## [12.29.1](https://github.com/botpress/botpress/compare/v12.29.0...v12.29.1) (2022-08-01)
 
 
